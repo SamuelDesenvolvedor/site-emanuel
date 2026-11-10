@@ -2,12 +2,12 @@
 
 Site institucional responsivo desenvolvido para uma corretora de seguros de vida, construído do zero com HTML, CSS e JavaScript puro. A identidade visual em azul-marinho e dourado foi pensada para transmitir confiança e sofisticação.
 
-🔗 **Ver o site no ar:** [https://SEU-DOMINIO-AQUI](https://SEU-DOMINIO-AQUI)
+🔗 **Ver o site no ar:** [https://emanoelseguros.com.br](https://emanoelseguros.com.br)
 
 ## 📸 Preview
 
-<!-- Adicione aqui um print do site: -->
-<!-- ![Preview do site](preview.png) -->
+<img width="1815" height="956" alt="image" src="https://github.com/user-attachments/assets/cfbf9f41-53ec-438d-bb8d-d8dc816ac8b8" />
+
 
 ## ✨ Destaques
 

@@ -1,41 +1,67 @@
-# Emanoel Corretora de Seguros — Site institucional
+# 🛡️ Emanoel Corretora de Seguros — Site Institucional
 
-Site estático responsivo em português do Brasil, com identidade premium em azul-marinho e dourado.
+Site institucional responsivo desenvolvido para uma corretora de seguros de vida, construído do zero com HTML, CSS e JavaScript puro. A identidade visual em azul-marinho e dourado foi pensada para transmitir confiança e sofisticação.
 
-## Conteúdo
-- `index.html`: estrutura e conteúdo do site.
-- `styles.css`: identidade visual e layout responsivo.
-- `script.js`: menu mobile, ano automático e formulário via `mailto:`.
-- `robots.txt` e `sitemap.xml`: arquivos básicos para mecanismos de busca.
+🔗 **Ver o site no ar:** [https://SEU-DOMINIO-AQUI](https://SEU-DOMINIO-AQUI)
 
-## Como visualizar
-1. Extraia o arquivo ZIP.
-2. Abra `index.html` em um navegador moderno.
+## 📸 Preview
 
-Para testar com um servidor local, na pasta do projeto execute:
+<!-- Adicione aqui um print do site: -->
+<!-- ![Preview do site](preview.png) -->
+
+## ✨ Destaques
+
+- Layout 100% responsivo (celular, tablet e computador)
+- Menu mobile com navegação suave entre as seções
+- Seção de perguntas frequentes (FAQ) com `<details>` nativo, sem JavaScript
+- Formulário de cotação que abre o e-mail do visitante com a mensagem pronta, incluindo consentimento para contato (LGPD)
+- Botão flutuante de WhatsApp com mensagem pré-preenchida
+- Ano do rodapé atualizado automaticamente
+- SEO básico: título, descrição, idioma, viewport, `robots.txt` e `sitemap.xml`
+- Textos em linguagem condicional, sem prometer aceitação ou indenização, respeitando as regras do mercado de seguros
+
+## 🛠️ Tecnologias
+
+- **HTML5**: estrutura semântica e conteúdo
+- **CSS3**: identidade visual, Grid, Flexbox e media queries
+- **JavaScript**: menu mobile, ano automático e formulário via `mailto:`
+- **Google Fonts**: DM Sans e Playfair Display
+- **GitHub Pages**: hospedagem
+- **Registro.br**: domínio próprio
+
+## 📁 Estrutura do projeto
+
+```
+├── index.html
+├── styles.css
+├── script.js
+├── robots.txt
+└── sitemap.xml
+```
+
+## 🚀 Como rodar localmente
+
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` no navegador.
+
+Ou, com um servidor local:
+
 ```bash
 python -m http.server 8000
 ```
+
 Depois acesse `http://localhost:8000`.
 
-## Contatos configurados
-- WhatsApp: +55 11 96064-9191
-- E-mail: contato@emanoelseguros.com.br
+## 📚 Aprendizados
 
-## Formulário
-O formulário abre o aplicativo de e-mail do visitante com a mensagem preenchida. O visitante precisa confirmar o envio. Para captar leads diretamente no site, conecte o formulário a um serviço/backend seguro antes de publicar.
+- Estruturação de um site institucional completo do zero
+- Design responsivo com CSS moderno
+- Publicação com GitHub Pages e configuração de domínio próprio (DNS)
+- Cuidados com LGPD e com a linguagem adequada ao setor de seguros
 
-## Antes de publicar
-- Revise os textos e dados institucionais.
-- Adicione razão social, CNPJ, endereço e informações regulatórias apenas após validação.
-- Publique em uma hospedagem com HTTPS.
-- Configure aviso de privacidade completo, canal para solicitações de titulares e política de retenção de dados, com revisão jurídica/LGPD.
-- Se usar analytics, pixels ou cookies não essenciais, implemente gestão de consentimento apropriada.
-- Valide os produtos, coberturas e condições com as seguradoras/parceiros. O site usa linguagem condicional e não promete aceitação ou indenização.
-- Configure domínio e e-mail profissional, se necessário.
+## 👤 Autor
 
-## SEO
-O título, descrição, idioma e viewport estão definidos. Atualize `sitemap.xml` com o domínio definitivo após a publicação.
+**Samuel Leme**
 
-## Observação
-Este pacote contém o projeto do site. Ele não foi hospedado nem publicado na internet.
+- GitHub: [@SamuelDesenvolvedor](https://github.com/SamuelDesenvolvedor)
+- LinkedIn: [Samuel Leme](https://www.linkedin.com/in/samuel-leme-7a1a84247/)
